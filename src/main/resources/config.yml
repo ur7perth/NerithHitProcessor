@@ -1,0 +1,20 @@
+
+prefix: "&6NerithHitProcessor"
+
+debug: false
+
+processor:
+  enabled: true
+
+  max-request-age-ticks: 3
+
+  duplicate-window-ticks: 5
+
+  require-same-world: true
+
+  extra-damage: false
+
+alerts:
+  enabled: true
+
+  format: "{prefix} &8| &a{attacker} &7-> &f{target} &8| &a{status}"
