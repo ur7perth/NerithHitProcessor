@@ -1,0 +1,15 @@
+
+name: NerithHitProcessor
+version: 1.0.0
+main: com.nerith.hitprocessor.NerithHitProcessor
+api-version: '1.21'
+author: Nerith
+description: GhostHit processing companion for NerithHitSync
+
+depend:
+  - NerithHitSync
+
+permissions:
+  nerithhitprocessor.alerts:
+    description: Receive NerithHitProcessor alerts
+    default: op
